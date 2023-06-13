@@ -1,0 +1,36 @@
+# SongtradrApiClientRuby::RecordingMediumDTO
+
+## Properties
+
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **tags** | [**Array&lt;RecordingTagSmallDTO&gt;**](RecordingTagSmallDTO.md) |  | [optional] |
+| **isrc** | **String** |  |  |
+| **release_date** | **Time** |  | [optional] |
+| **titles** | [**Array&lt;TitleDTO&gt;**](TitleDTO.md) |  | [optional] |
+| **musical_features** | [**MusicalFeaturesDTO**](MusicalFeaturesDTO.md) |  | [optional] |
+| **recording_party_entities** | [**Array&lt;RecordingPartyDTO&gt;**](RecordingPartyDTO.md) |  | [optional] |
+| **genres** | [**Array&lt;GenreDTO&gt;**](GenreDTO.md) |  | [optional] |
+| **language_of_performance** | **String** |  | [optional] |
+| **spotify_id** | **String** |  | [optional] |
+| **genre_predictions** | [**Array&lt;RecordingGenrePredictionDTO&gt;**](RecordingGenrePredictionDTO.md) |  | [optional] |
+
+## Example
+
+```ruby
+require 'songtradr_api_client_ruby'
+
+instance = SongtradrApiClientRuby::RecordingMediumDTO.new(
+  tags: null,
+  isrc: null,
+  release_date: null,
+  titles: null,
+  musical_features: null,
+  recording_party_entities: null,
+  genres: null,
+  language_of_performance: null,
+  spotify_id: null,
+  genre_predictions: null
+)
+```
+
